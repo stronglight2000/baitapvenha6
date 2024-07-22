@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+}
+
+.container {
+    display: flex;
+}
+
+.cart {
+    width: 400px;
+    height: 300px;
+    margin-left: 100px;
+    /* background-color: red; */
+}
+
+.logo-right {
+    width: 400px;
+    height: 300px;
+}
+
+.logo-right img {
+    width: 100%;
+}
+
+.fullname {
+    display: flex;
+    width: 100%;
+}
+
+.name {
+    width: 50%;
+    margin-left: 3px;
+}
+
+.surname {
+    width: 50%;
+}
+
+h3 {
+    color: blue;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.password {
+    display: flex;
+}
+
+.pass {
+    width: 50%;
+}
+
+.repass {
+    width: 50%;
+    margin-left: 5px;
+}
+
+.showpass {
+    display: flex;
+}
+
+.square {
+    width: 5%;
+}
+
+.showpasstext {
+    width: 95%;
+}
+
+.btn {
+    display: flex;
+    margin-left: 100px;
+    width: 400px;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login {
+    width: 50%;
+    height: 30px;
+}
+
+.login a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.next {
+    width: 30%;
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.next a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+input {
+    border: none;
+}
